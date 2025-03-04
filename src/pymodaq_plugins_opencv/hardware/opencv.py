@@ -1,4 +1,4 @@
-from pymodaq.utils.enums import BaseEnum, enum_checker
+from pymodaq_utils.enums import BaseEnum, enum_checker
 
 import cv2
 

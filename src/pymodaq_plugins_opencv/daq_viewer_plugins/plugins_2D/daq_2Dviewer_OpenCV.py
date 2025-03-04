@@ -3,10 +3,10 @@ from sys import platform
 import numpy as np
 import cv2
 
-from pymodaq.utils.daq_utils import ThreadCommand
+from pymodaq_utils.utils import ThreadCommand
 from pymodaq.utils.data import DataFromPlugins, Axis, DataToExport
 from pymodaq.control_modules.viewer_utility_classes import DAQ_Viewer_base, comon_parameters, main
-from pymodaq.utils.parameter import Parameter
+from pymodaq_gui.parameter import Parameter
 
 from pymodaq_plugins_opencv.hardware.opencv import OpenCVProp
 
